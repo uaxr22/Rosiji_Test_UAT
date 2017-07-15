@@ -1,0 +1,240 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Login and Logout",
+        "description": "",
+        "id": "as-a-user,;login-and-logout;login-details;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14395328283,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "am on the \"Landing\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Landing",
+                  "offset": 11
+                }
+              ],
+              "location": "snd_login_test.am_on_the_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88249906,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my \"Username\" as \"wegit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username",
+                  "offset": 12
+                },
+                {
+                  "val": "wegit",
+                  "offset": 26
+                }
+              ],
+              "location": "snd_login_test.i_enter_my_as(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58331138,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter my \"Password\" as \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 12
+                },
+                {
+                  "val": "12345678",
+                  "offset": 26
+                }
+              ],
+              "location": "snd_login_test.i_enter_my_as(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185582154,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 9
+                }
+              ],
+              "location": "snd_login_test.i_click_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8113829,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "am on the \"Home\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 11
+                }
+              ],
+              "location": "snd_login_test.am_on_the_Page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@duper"
+          },
+          {
+            "line": 6,
+            "name": "@demo2"
+          }
+        ]
+      }
+    ],
+    "name": "As a user,",
+    "description": "I want to be able to login and logout",
+    "id": "as-a-user,",
+    "keyword": "Feature",
+    "uri": "2nd_login_logout.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@duper"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login and Logout",
+        "description": "",
+        "id": "as-a-user,;login-and-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 471563591,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "ist_login_test.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64444657,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my Username as wegit",
+            "match": {
+              "location": "ist_login_test.i_enter_my_Username_as_wegit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54013707,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my Password as 123455678",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123455678",
+                  "offset": 23
+                }
+              ],
+              "location": "ist_login_test.i_enter_my_Password_as(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 716385817,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Login button",
+            "match": {
+              "location": "ist_login_test.i_click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10739697973,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "am on the Home Page",
+            "match": {
+              "location": "ist_login_test.am_on_the_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@demo2"
+          }
+        ]
+      }
+    ],
+    "name": "As a user,",
+    "description": "I want to be able to login and logout",
+    "id": "as-a-user,",
+    "keyword": "Feature",
+    "uri": "Ist_login_test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@duper"
+      }
+    ]
+  }
+]
